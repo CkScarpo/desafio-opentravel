@@ -1,4 +1,4 @@
-package com.example.open_travel_desafio
+package br.luiz.open_travel_login
 
 import io.flutter.embedding.android.FlutterActivity
 
