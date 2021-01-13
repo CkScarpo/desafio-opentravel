@@ -272,7 +272,7 @@ class _AssistentePageState
                       Column(
                         children: [
                           SizedBox(
-                            width: 230,
+                            width: 282,
                             height: 15,
                             child: Text(
                               'Hotel Ibis',
@@ -322,7 +322,7 @@ class _AssistentePageState
                       Column(
                         children: [
                           SizedBox(
-                            width: 230,
+                            width: 282,
                             height: 15,
                             child: Text(
                               '99 Taxi',
