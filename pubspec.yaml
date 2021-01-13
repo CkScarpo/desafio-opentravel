@@ -1,4 +1,4 @@
-name: open_travel_desafio
+name: open_travel
 description: A new Flutter project.
 
 # The following line prevents the package from being accidentally published to
@@ -24,7 +24,7 @@ dependencies:
   dio: ^3.0.10
   flutter_mobx: ^1.1.0+2
   mobx: ^1.2.1+4
-  firebase_auth:
+  #firebase_auth: ^0.18.4+1
   flutter_modular: ^2.0.1
   flutter:
     sdk: flutter
@@ -32,6 +32,7 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
 
 dev_dependencies:
   mockito: ^4.1.3
@@ -52,9 +53,18 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/icon_99.png
+    - assets/images/icon_amazon.png
+    - assets/images/icon_aprovado.png
+    - assets/images/icon_aprovadores.png
+    - assets/images/icon_assistente.png
+    - assets/images/icon_despesas.png
+    - assets/images/icon_ibis.png
+    - assets/images/icon_perfil.png
+    - assets/images/icon_viagens.png
+    - assets/images/la.png
+    - assets/images/Logo_Branco_Slogan.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.

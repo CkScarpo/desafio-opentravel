@@ -1,7 +1,7 @@
 import 'package:flutter_modular/flutter_modular.dart';
-import 'package:open_travel_desafio/app/modules/home/home_page.dart';
 
 import 'home_controller.dart';
+import 'home_page.dart';
 
 class HomeModule extends ChildModule {
   @override
@@ -12,4 +12,6 @@ class HomeModule extends ChildModule {
   @override
   List<ModularRouter> get routers =>
       [ModularRouter('/', child: (_, args) => HomePage())];
+
+  static Inject get to => Inject<HomeModule>.of();
 }

@@ -1,4 +1,4 @@
-# Desafio OpenTravel
+# open_travel
 
 A new Flutter project.
 
